@@ -1,0 +1,85 @@
+{
+    "date_time": [
+        "2022-08-05 06:00:00"
+    ],
+    "model": [
+        "sfno"
+    ],
+    "target_var": [
+        "t2m"
+    ],
+    "target_lat_lon": [
+        [
+            171,
+            17
+        ]
+    ],
+    "gradient_accumulation_strategy": [
+        "absolute"
+    ],
+    "attribution_method": [
+        "vanilla_grad",
+        "gradient_times_input",
+        "blur_integrated_grad",
+        "integrated_grad",
+        "expected_grad"
+    ],
+    "attribution_smoother": {
+        "no_smoothing": {
+            "m": [
+                1
+            ],
+            "n": [
+                1
+            ],
+            "weights_noise_level": [
+                0.0
+            ],
+            "input_noise_level": [
+                0.0
+            ]
+        },
+        "smooth_grad": {
+            "m": [
+                1
+            ],
+            "n": [
+                16
+            ],
+            "weights_noise_level": [
+                0.0
+            ],
+            "input_noise_level": [
+                0.1
+            ]
+        },
+        "noise_grad": {
+            "m": [
+                16
+            ],
+            "n": [
+                1
+            ],
+            "weights_noise_level": [
+                0.1
+            ],
+            "input_noise_level": [
+                0.0
+            ]
+        },
+        "fusion_grad": {
+            "m": [
+                4
+            ],
+            "n": [
+                4
+            ],
+            "weights_noise_level": [
+                0.1
+            ],
+            "input_noise_level": [
+                0.1
+            ]
+        }
+    }
+}
