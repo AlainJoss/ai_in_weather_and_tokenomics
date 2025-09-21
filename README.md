@@ -70,3 +70,4 @@ This project brings together explainability methods and ML-based weather-forecas
     sh attribution_pipeline.sh
     sh dashboard.sh
     ```
+- ⚠️ To successfully run the .sh scripts, please ensure you have manually downloaded and placed the required files in the correct paths.
