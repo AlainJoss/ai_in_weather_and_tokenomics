@@ -1,3 +1,3 @@
 #!/bin/bash
 
-streamlit run src/app.py
+streamlit run dashboard/app.py

@@ -19,4 +19,4 @@ hostname
 nvidia-smi
 
 # run
-uv run src/main.py
+uv run attribution_pipeline/main.py
